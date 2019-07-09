@@ -4,3 +4,4 @@
 
 # 工业界
 [《AI 算法工程师手册》](http://www.huaxiaozhuan.com/)- [华校专, 腾讯](http://www.huaxiaozhuan.com/)
+> 这本《AI 算法工程师手册》是作者多年以来学习总结的笔记，经整理之后开源于世。
