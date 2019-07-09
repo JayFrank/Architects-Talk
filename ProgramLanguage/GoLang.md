@@ -1,3 +1,7 @@
+# GO语言
+
+# 学习资料
+
 [官方文档(中文版)](https://go-zh.org/doc/)
 
 [指南-GO语言之旅](https://tour.go-zh.org/welcome/1)
