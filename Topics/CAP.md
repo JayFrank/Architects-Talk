@@ -40,4 +40,4 @@ BASE是Basically Availability（基本可用）、Soft State（软状态）和Ev
 * [E. Brewer, "CAP twelve years later: How the "rules" have changed," in Computer, vol. 45, no. 2, pp. 23-29, Feb. 2012.](https://ieeexplore.ieee.org/document/6133253)
 * [Cluster-Based Scalable Network Services](http://citeseerx.ist.psu.edu/viewdoc/download?spm=a2c4e.11153940.0.0.51a38c31rjMf0R&doi=10.1.1.1.2034&rep=rep1&type=pdf)
 * [Harvest, Yield and Scalable Tolerant Systems](http://citeseerx.ist.psu.edu/viewdoc/download?spm=a2c4e.11153940.0.0.51a38c31rjMf0R&doi=10.1.1.24.3690&rep=rep1&type=pdf)
-* [分布式系统：CAP 理论的前世今生](https://yq.aliyun.com/articles/700488)
+* [肖汉松, 分布式系统：CAP 理论的前世今生, 云栖社区](https://yq.aliyun.com/articles/700488)
