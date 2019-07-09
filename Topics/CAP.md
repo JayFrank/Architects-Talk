@@ -48,4 +48,4 @@ BASE是Basically Availability（基本可用）、Soft State（软状态）和Ev
 * [Harvest, Yield and Scalable Tolerant Systems](http://citeseerx.ist.psu.edu/viewdoc/download?spm=a2c4e.11153940.0.0.51a38c31rjMf0R&doi=10.1.1.24.3690&rep=rep1&type=pdf)
 * [肖汉松, "分布式系统：CAP 理论的前世今生", 云栖社区](https://yq.aliyun.com/articles/700488)
 * [阮一峰, "CAP 定理的含义", 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2018/07/cap.html)
-* [ACID、BASE和CAP原理, CSDN](https://blog.csdn.net/sinat_27186785/article/details/52032510)
+* ["ACID、BASE和CAP原理", CSDN](https://blog.csdn.net/sinat_27186785/article/details/52032510)
