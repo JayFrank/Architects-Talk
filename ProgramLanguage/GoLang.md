@@ -1,8 +1,13 @@
 # GO语言
 **简介** ：Go（又称Golang）是Google开发的一种静态强类型、编译型、并发型，并具有垃圾回收功能的编程语言。
 
-## GO语言为什么变量声明在后？
-[Go声明语法](https://link.zhihu.com/?target=https%3A//blog.golang.org/gos-declaration-syntax)
+## 与其他语言的区别点 
+### GO语言为什么变量声明在后？
+[GO声明语法](https://link.zhihu.com/?target=https%3A//blog.golang.org/gos-declaration-syntax)
+
+### GO和Python切片的不同
+[GO和Python切片的不同](https://my.oschina.net/liudiwu/blog/311830)
+> python的切片产生的是新的对象，对新对象的成员的操作不影响旧对象；go的切片产生的是旧对象一部分的引用，对其成员的操作会影响旧对象。
 
 # 学习资料
 
