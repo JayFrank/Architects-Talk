@@ -9,6 +9,9 @@
 [GO和Python切片的不同](https://my.oschina.net/liudiwu/blog/311830)
 > python的切片产生的是新的对象，对新对象的成员的操作不影响旧对象；go的切片产生的是旧对象一部分的引用，对其成员的操作会影响旧对象。
 
+### GO中闭包的理解
+[Golang中闭包的理解](https://blog.csdn.net/qq_35976351/article/details/81986496)
+
 # 学习资料
 
 [官方文档(中文版)](https://go-zh.org/doc/)
