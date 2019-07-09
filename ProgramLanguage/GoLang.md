@@ -6,7 +6,7 @@
 > 概览性文档，可以由此找到更多的学习资料
 
 [指南-GO语言之旅](https://tour.go-zh.org/welcome/1)
-> 可以动手编程的学习路径
+> 可以动手编程的学习路径，强烈推荐！
 
 [Go by Example](https://gobyexample.com/)
 
