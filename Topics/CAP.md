@@ -30,18 +30,18 @@ CAP 经常被误解，很大程度上是因为在讨论 CAP 的时候可用性�
 
 CAP 的诞生主要是为了拓宽设计思路，不要局限在强一致性的约束中。简单的把“三选二”进行套用反而限制了设计思路。在现实世界中，不同业务场景对可用性和一致性的要求不一样，并且一致性和可用性的范围和区间是动态变化的，并不是非此即彼。因此，准确理解 CAP 理论，从管理分区的角度出发，结合具体的业务场景，才能做出更好的系统设计。
 
-# CAP理论的扩展
-## ACID
+# CAP相关的理论
+## ACID理论
 ACID 是数据库管理系统为了保证事务的正确性而提出来的一个理论，ACID 包含四个约束：
 1. **Atomicity（原子性）** :一个事务中的所有操作，要么全部完成，要么全部不完成，不会在中间某个环节结束。事务在执行过程中发生错误，会被回滚到事务开始前的状态，就像这个事务从来没有执行过一样。
 2. **Consistency（一致性）** :在事务开始之前和事务结束以后，数据库的完整性没有被破坏。
 3. **Isolation（隔离性）** :数据库允许多个并发事务同时对数据进行读写和修改的能力。隔离性可以防止多个事务并发执行时由于交叉执行而导致数据的不一致。事务隔离分为不同级别，包括读未提交（Read uncommitted）、读提交（read committed）、可重复读（repeatable read）和串行化（Serializable）。
 4. **Durability（持久性）** :事务处理结束后，对数据的修改就是永久的，即便系统故障也不会丢失。
 
-## BASE
+## BASE理论
 BASE是Basically Availability（基本可用）、Soft State（软状态）和Eventually Consistency（最终一致性）三个短语的缩写。BASE理论的核心思想就是 **即使无法做到强一致性（CAP的一致性就是强一致性性），但应用可以采用适合的方式达到最终一致性。**
 
-# 参考文献（待完善）
+# 参考文献
 * [An Illustrated Proof of the CAP Theorem](https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/)
 * [E. Brewer, "CAP twelve years later: How the "rules" have changed," in Computer, vol. 45, no. 2, pp. 23-29, Feb. 2012.](https://ieeexplore.ieee.org/document/6133253)
 * [Cluster-Based Scalable Network Services](http://citeseerx.ist.psu.edu/viewdoc/download?spm=a2c4e.11153940.0.0.51a38c31rjMf0R&doi=10.1.1.1.2034&rep=rep1&type=pdf)
