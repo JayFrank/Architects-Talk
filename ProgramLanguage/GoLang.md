@@ -1,6 +1,9 @@
 # GO语言
 **简介** ：Go（又称Golang）是Google开发的一种静态强类型、编译型、并发型，并具有垃圾回收功能的编程语言。
 
+## GO语言为什么变量声明在后？
+[Go声明语法](https://link.zhihu.com/?target=https%3A//blog.golang.org/gos-declaration-syntax)
+
 # 学习资料
 
 [官方文档(中文版)](https://go-zh.org/doc/)
