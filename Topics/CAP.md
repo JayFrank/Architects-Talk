@@ -1,5 +1,5 @@
 # 理论历史由来
-2000年7月，加州大学伯克利分校的Eric Brewer教授在ACM PODC会议上提出CAP猜想。2年后，麻省理工学院的Seth Gilbert和Nancy Lynch从理论上证明了CAP。之后，CAP理论正式成为分布式计算领域的公认定理。
+**CAP定理（CAP theorem）** 又被称作 *布鲁尔定理(Brewer's theorem)* ，是回加州大学伯克得分校的计算机科学家埃里克·布鲁尔（Eric Brewer）在2000年的ACM PODC上提出的一个猜想。2002 年，麻省理工学院的赛斯·吉尔伯特（Seth Gilbert）和南希·林奇（Nancy Lynch）发表了布鲁尔猜想的证明，使之成为分布式计算领域公认的一个定理。
 
 # CAP经典理论
 CAP定理是分布式系统设计中最基础，也是最为关键的理论。它指出，分布式数据存储不可能同时满足以下三个条件：
@@ -32,12 +32,20 @@ CAP 的诞生主要是为了拓宽设计思路，不要局限在强一致性的�
 
 # CAP理论的扩展
 ## ACID
+ACID 是数据库管理系统为了保证事务的正确性而提出来的一个理论，ACID 包含四个约束：
+1. Atomicity（原子性）:一个事务中的所有操作，要么全部完成，要么全部不完成，不会在中间某个环节结束。事务在执行过程中发生错误，会被回滚到事务开始前的状态，就像这个事务从来没有执行过一样。
+2. Consistency（一致性）:在事务开始之前和事务结束以后，数据库的完整性没有被破坏。
+3. Isolation（隔离性）:数据库允许多个并发事务同时对数据进行读写和修改的能力。隔离性可以防止多个事务并发执行时由于交叉执行而导致数据的不一致。事务隔离分为不同级别，包括读未提交（Read uncommitted）、读提交（read committed）、可重复读（repeatable read）和串行化（Serializable）。
+4. Durability（持久性）:事务处理结束后，对数据的修改就是永久的，即便系统故障也不会丢失。
 
 ## BASE
 BASE是Basically Availability（基本可用）、Soft State（软状态）和Eventually Consistency（最终一致性）三个短语的缩写。BASE理论的核心思想就是 **即使无法做到强一致性（CAP的一致性就是强一致性性），但应用可以采用适合的方式达到最终一致性。**
 
-# 参考文献
+# 参考文献（待完善）
+* [An Illustrated Proof of the CAP Theorem](https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/)
 * [E. Brewer, "CAP twelve years later: How the "rules" have changed," in Computer, vol. 45, no. 2, pp. 23-29, Feb. 2012.](https://ieeexplore.ieee.org/document/6133253)
 * [Cluster-Based Scalable Network Services](http://citeseerx.ist.psu.edu/viewdoc/download?spm=a2c4e.11153940.0.0.51a38c31rjMf0R&doi=10.1.1.1.2034&rep=rep1&type=pdf)
 * [Harvest, Yield and Scalable Tolerant Systems](http://citeseerx.ist.psu.edu/viewdoc/download?spm=a2c4e.11153940.0.0.51a38c31rjMf0R&doi=10.1.1.24.3690&rep=rep1&type=pdf)
-* [肖汉松, 分布式系统：CAP 理论的前世今生, 云栖社区](https://yq.aliyun.com/articles/700488)
+* [肖汉松, "分布式系统：CAP 理论的前世今生", 云栖社区](https://yq.aliyun.com/articles/700488)
+* [阮一峰, "CAP 定理的含义", 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2018/07/cap.html)
+* [ACID、BASE和CAP原理, CSDN](https://blog.csdn.net/sinat_27186785/article/details/52032510)
