@@ -33,7 +33,8 @@
 
 [build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang)
 
-[Go语言项目推荐目录结构 - golang-standards/project-layout](https://github.com/golang-standards/project-layout)
+[golang-standards/project-layout](https://github.com/golang-standards/project-layout)
+> Go语言项目推荐的目录结构
 
 ### 无闻合集
 * [《Go编程基础》](https://github.com/Unknwon/go-fundamental-programming)
