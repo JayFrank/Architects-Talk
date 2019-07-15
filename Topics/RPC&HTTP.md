@@ -17,6 +17,8 @@
 RPC架构
 先说说RPC服务的基本架构吧。如下图所示，我们可以很清楚地看到，一个完整的RPC架构里面包含了四个核心的组件，分别是Client, Server, Client Stub以及Server Stub，这个Stub可以理解为存根。
 
+<img src="https://github.com/JayFrank/Architects-Talk/blob/master/Link/rpc-architecture.jpg"  height="240">
+
 分别说说这几个组件：
 - 客户端（Client），服务的调用方。
 - 服务端（Server），真正的服务提供者。
