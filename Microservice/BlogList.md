@@ -9,7 +9,12 @@
 [Martin Fowler的个人网站](https://martinfowler.com/)
 
 ---
-## 从单体架构向微服务架构迁移
+## 对微服务的理解（What's Microservices Architecture?）
+[张逸-重新理解Martin Fowler对微服务的定义](http://zhangyi.xyz/understanding-micro-service-definition/)
+> 微服务的完整定义来自Martin Fowler的文章[《MicroServices》](https://www.martinfowler.com/articles/microservices.html)，本文是张逸对于微服务概念的重新理解。
+
+---
+## 从单体架构向微服务架构迁移（How to perform Microservices Architecture?）
 [张逸-从单体架构到微服务架构](http://zhangyi.xyz/how-to-break-monolith-into-microservices/)
 > 张逸在Martin Fowler网站上读到一篇名为[How to break a Monolith into Microservices](https://martinfowler.com/articles/break-monolith-into-microservices.html)的微服务文章，作者为ThoughtWorks的咨询师Zhamak Dehghani，介绍了如何从单体架构演进到微服务架构。
 
