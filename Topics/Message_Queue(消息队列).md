@@ -7,9 +7,12 @@
 ---|---|---|---
 Apache Kafka | http://kafka.apache.org/ | 开源 | https://github.com/apache/kafka
 Apache RocketMQ |http://rocketmq.apache.org/ | 开源 | https://github.com/apache/rocketmq
+RabbitMQ | https://www.rabbitmq.com/ | 开源 | https://github.com/rabbitmq
+Apache ActiveMQ| http://activemq.apache.org/ | 开源 | https://github.com/apache/activemq
+Apache Pulsar | http://pulsar.apache.org/ | 开源 | https://github.com/apache/pulsar
 
 Kafka是目前最常用的消息队列，尤其是在大数据方面，有着极高的吞吐量。而RocketMQ和RabbitMQ，都是电信级别的消息队列，在业务上用的比较多。2019年了，不要再盯着JMS不放了（说的就是臃肿的ActiveMQ）。
 
-pulsar是为了解决一些Kafka上的问题而诞生的消息系统，比较年轻，工具链有限。有些激进的团队经过试用，反响不错。
+Pulsar是为了解决一些Kafka上的问题而诞生的消息系统，比较年轻，工具链有限。有些激进的团队经过试用，反响不错。
 
-mqtt具体来说是一种协议，主要用在物联网方面，能够双向通信，属于消息队列范畴。
+MQTT具体来说是一种协议，主要用在物联网方面，能够双向通信，属于消息队列范畴。
