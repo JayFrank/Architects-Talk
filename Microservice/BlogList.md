@@ -5,7 +5,6 @@
 * [使用聚合、事件溯源和 CQRS 开发事务型微服务（第一部分）](https://www.infoq.cn/article/microservices-aggregates-events-cqrs-part-1-richardson)
 * [使用聚合、事件溯源和 CQRS 开发事务型微服务（第二部分）](https://www.infoq.cn/article/microservices-aggregates-events-cqrs-part-2-richardson)
 
----
 ### Martin Fowler
 [Martin Fowler](https://martinfowler.com/)
 
