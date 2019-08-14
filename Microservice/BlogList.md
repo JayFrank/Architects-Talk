@@ -9,6 +9,11 @@
 [Martin Fowler的个人网站](https://martinfowler.com/)
 
 ---
+## 从单体架构向微服务架构迁移
+[张逸-从单体架构到微服务架构](http://zhangyi.xyz/how-to-break-monolith-into-microservices/)
+> 张逸在Martin Fowler网站上读到一篇名为How to break a Monolith into Microservices的微服务文章，作者为ThoughtWorks的咨询师Zhamak Dehghani，介绍了如何从单体架构演进到微服务架构。
+
+
 
 
 
