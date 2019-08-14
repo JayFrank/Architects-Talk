@@ -23,4 +23,4 @@
 
 ## 微服务的未来
 ### Service Mesh
-* [技术分享：浅谈 Service Mesh 在瓜子的实践](https://www.infoq.cn/article/oeQ0Wm4e4OP*1LMN6IEo)
+[技术分享：浅谈 Service Mesh 在瓜子的实践](https://www.infoq.cn/article/oeQ0Wm4e4OP*1LMN6IEo)
