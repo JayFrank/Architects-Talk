@@ -2,9 +2,10 @@
 **一个大型的分布式系统，通常都会异步化，走消息总线。** 消息队列作为最主要的基础组件，在整个体系架构中，有着及其重要的作用。
 
 主流消息队列
+
 消息队列 | 主页 | 是否开源 | Github
 ---|---|---|---
-Apache Kafka | http://kafka.apache.org/ | 开源 | |
+Apache Kafka | http://kafka.apache.org/ | 开源 | 
 Apache RocketMQ |http://rocketmq.apache.org/ | 开源 | https://github.com/apache/rocketmq |
 
 Kafka是目前最常用的消息队列，尤其是在大数据方面，有着极高的吞吐量。而RocketMQ和RabbitMQ，都是电信级别的消息队列，在业务上用的比较多。2019年了，不要再盯着JMS不放了（说的就是臃肿的ActiveMQ）。
