@@ -15,6 +15,9 @@
 
 [郭蕾-有关微服务架构的争论：更简单还是更复杂？](https://www.infoq.cn/article/2014/05/micro-server-architecture-debate/)
 
+[李运华-微服务的历史与陷阱](https://mp.weixin.qq.com/s/ASAyc7rhyJXBSx_d7geinA)
+
+
 [一文读懂 Spring Boot、微服务架构和大数据治理三者之间的故事](https://www.cnblogs.com/ityouknow/p/9034377.html)
 
 
