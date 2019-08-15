@@ -19,6 +19,7 @@
 
 [一文读懂 Spring Boot、微服务架构和大数据治理三者之间的故事](https://www.cnblogs.com/ityouknow/p/9034377.html)
 
+[程序员DD-微服务架构专题](http://blog.didispace.com/micro-serivces-arch/)
 
 ---
 ## 从单体架构向微服务架构迁移（How to perform Microservices Architecture?）
