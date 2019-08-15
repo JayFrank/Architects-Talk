@@ -41,4 +41,6 @@
 ### Service Mesh
 [初识 Service Mesh](https://www.jianshu.com/p/e23e3e74538e)
 
+[微服务（Microservices）和服务网格（Service Mesh）架构概念整理](https://www.cnblogs.com/xishuai/p/microservices-and-service-mesh.html)
+
 [技术分享：浅谈 Service Mesh 在瓜子的实践](https://www.infoq.cn/article/oeQ0Wm4e4OP*1LMN6IEo)
