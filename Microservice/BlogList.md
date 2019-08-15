@@ -26,9 +26,12 @@
 [张逸-从单体架构到微服务架构](http://zhangyi.xyz/how-to-break-monolith-into-microservices/)
 > 张逸在Martin Fowler网站上读到一篇名为[How to break a Monolith into Microservices](https://martinfowler.com/articles/break-monolith-into-microservices.html)的微服务文章，作者为ThoughtWorks的咨询师Zhamak Dehghani，介绍了如何从单体架构演进到微服务架构。
 
-
 ---
 
+## 微服务技术选型
+[微服务调用为啥用RPC框架，http不更简单吗？](https://zhuanlan.zhihu.com/p/61364466)
+
+---
 [Matt Stine-迁移到云原生应用架构](https://jimmysong.io/migrating-to-cloud-native-application-architectures/)
 
 [InfoQ-溯源微服务开发体系：一位 Java 开发者的转型思考](https://www.infoq.cn/article/DbHmVFwMsT4EGTQo-GRw)
