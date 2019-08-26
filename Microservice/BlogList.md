@@ -8,6 +8,12 @@
 ### Martin Fowler
 [Martin Fowler的个人网站](https://martinfowler.com/)
 
+### Capital One Tech
+[Capital One Tech](https://medium.com/capital-one-tech/microservices/home)
+
+### DZone-Microservices Zone
+[Microservices Zone](https://dzone.com/microservices-news-tutorials-tools)
+
 ---
 ## 对微服务的理解（What's Microservices Architecture?）
 [张逸-重新理解Martin Fowler对微服务的定义](http://zhangyi.xyz/understanding-micro-service-definition/)
